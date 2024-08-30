@@ -1,0 +1,31 @@
+.contactItem {
+  min-width: 250px;
+  flex-basis: calc((100%-8 * 3) / 4);
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #a1a1a1;
+  border-radius: 4px;
+}
+.textWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.dataWrap {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  margin-right: 5px;
+  color: #a1a1a1;
+}
+
+.deleteContactBtn {
+  min-width: 80px;
+  padding: 10px 0;
+  color: #a1a1a1;
+  background-color: #403f3f;
+  border-radius: 1px;
+}
